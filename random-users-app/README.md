@@ -1,12 +1,41 @@
-# React + Vite
+# Random Users App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React, Vite, React Router DOM, Axios, Material UI ve TailwindCSS kullanılarak geliştirilmiş rastgele kullanıcı listeleme uygulamasıdır.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- API'den rastgele kullanıcı verisi çeker.
+- Kullanıcının belirlediği sayıda kullanıcıyı getirir.
+- Sayfalama desteği vardır her sayfada 6 adet olacak şekilde ayarlandı.
+- Her kullanıcı için detay sayfası bulunur.
+- URL üzerinden dinamik kullanıcı detayları çekerek detay sayfasına gidilir.
 
-## Expanding the ESLint configuration
+## Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- React Router DOM
+- Axios
+- Material UI
+- TailwindCSS
+
+## Kurulum
+
+1. Depoyu klonlayın  
+   `git clone <repo-url>`
+
+2. Proje dizinine girin  
+   `cd random-users-app`
+
+3. Bağımlılıkları yükleyin  
+   `npm install`
+
+4. Uygulamayı başlatın  
+   `npm run dev`
+
+## API
+
+- Kullanıcı verisi: https://randomuser.me/api/?results={sayi}
+
+---
+
+**_[Alper BİLGİN](https://github.com/Alper-Bilgin)_**
