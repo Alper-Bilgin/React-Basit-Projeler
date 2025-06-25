@@ -1,12 +1,81 @@
-# React + Vite
+# The Design Snack - Food Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React ve Vite kullanılarak hazırlanmış modern ve responsive bir yemek blogu uygulamasıdır. Tasarımda Tailwind CSS ve çeşitli ikon kütüphaneleri kullanılmıştır.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Modern ve responsive arayüz
+- React bileşen mimarisi
+- Tailwind CSS ile hızlı stil uygulama
+- Vite ile hızlı geliştirme ve derleme
+- Lucide ve React Icons ile zengin ikon desteği
+- Statik sayfalar: Anasayfa, Hakkında, Makaleler, Menü, Çağrı-aksiyon ve Footer
 
-## Expanding the ESLint configuration
+## Proje Yapısı
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+  App.jsx
+  main.jsx
+  App.css
+  Component/
+    Footer.jsx
+    Navigation.jsx
+  Pages/
+    About.jsx
+    Abt.jsx
+    Article.jsx
+    CalltoAction.jsx
+    Food.jsx
+    Homepage.jsx
+  Images/
+    Bgmenu.png
+    Burgerimg.jpg
+    HeroBurger.jpg
+    Homepagebg.png
+    Logo.png
+    pizzaimg.jpg
+  assets/
+    react.svg
+public/
+  vite.svg
+```
+
+## Kurulum
+
+1. Depoyu klonlayın:
+
+   ```sh
+   git clone <repo-url>
+   cd 5_SPA_FoodBlog
+   ```
+
+2. Bağımlılıkları yükleyin:
+
+   ```sh
+   npm install
+   ```
+
+3. Geliştirme sunucusunu başlatın:
+
+   ```sh
+   npm run dev
+   ```
+
+4. Projeyi tarayıcıda görüntülemek için verilen yerel adresi ziyaret edin.
+
+## Kullanılan Teknolojiler
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React](https://lucide.dev/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+## Lisans
+
+Bu proje MIT lisansı ile lisanslanmıştır.
+
+---
+
+**_[Alper BİLGİN](https://github.com/Alper-Bilgin)_**
